@@ -53,6 +53,12 @@ android {
 
 dependencies {
 
+    // Project dependencies
+    implementation(project(":core"))
+    implementation(project(":data"))
+    implementation(project(":domain"))
+    implementation(project(":ui"))
+
     // Kotlin dependencies
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
