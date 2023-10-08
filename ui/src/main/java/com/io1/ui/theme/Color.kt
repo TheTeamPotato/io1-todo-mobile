@@ -1,4 +1,4 @@
-package com.io1.todo.ui.theme
+package com.io1.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

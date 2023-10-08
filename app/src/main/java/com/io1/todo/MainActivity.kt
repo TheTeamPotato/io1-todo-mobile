@@ -8,7 +8,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import com.io1.todo.feature.onboarding.view.OnboardingScreen
-import com.io1.todo.ui.theme.ToDoTheme
+import com.io1.ui.theme.ToDoTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
