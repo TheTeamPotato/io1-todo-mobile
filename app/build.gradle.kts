@@ -64,12 +64,15 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
 
     // Compose dependencies
-    implementation("androidx.activity:activity-compose:1.7.2")
+    implementation("androidx.activity:activity-compose:1.8.0")
     implementation(platform("androidx.compose:compose-bom:2023.09.01"))
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
+
+    // Navigation Compose
+    implementation("androidx.navigation:navigation-compose:2.7.4")
 
     // Coroutines dependencies
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
