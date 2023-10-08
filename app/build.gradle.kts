@@ -75,11 +75,14 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.7.4")
 
     // Coroutines dependencies
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
 
     // Hilt dependencies
     implementation("com.google.dagger:hilt-android:2.44")
     kapt("com.google.dagger:hilt-android-compiler:2.44")
+
+    //Splash API
+    implementation ("androidx.core:core-splashscreen:1.0.1")
 
     // Test dependencies
     testImplementation("junit:junit:4.13.2")
