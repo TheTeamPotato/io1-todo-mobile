@@ -78,11 +78,20 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
 
     // Hilt dependencies
-    implementation("com.google.dagger:hilt-android:2.44")
-    kapt("com.google.dagger:hilt-android-compiler:2.44")
+    implementation("com.google.dagger:hilt-android:2.48")
+    kapt("com.google.dagger:hilt-android-compiler:2.48")
+    implementation ("androidx.hilt:hilt-navigation-compose:1.0.0")
+    kapt ("androidx.hilt:hilt-compiler:1.0.0")
 
     //Splash API
     implementation ("androidx.core:core-splashscreen:1.0.1")
+
+    // DataStore Preferences
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
+
+    // Pager and Indicators - Accompanist
+    implementation ("com.google.accompanist:accompanist-pager:0.24.2-alpha")
+    implementation ("com.google.accompanist:accompanist-pager-indicators:0.24.2-alpha")
 
     // Test dependencies
     testImplementation("junit:junit:4.13.2")
