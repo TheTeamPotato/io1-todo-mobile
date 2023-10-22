@@ -1,12 +1,15 @@
 package com.io1.todo.navigation.graphs
 
+import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navigation
+import com.google.accompanist.pager.ExperimentalPagerApi
 import com.io1.todo.feature.onboarding.view.OnboardingScreenRoute
 import com.io1.todo.navigation.utils.Graph
 
+@OptIn(ExperimentalAnimationApi::class, ExperimentalPagerApi::class)
 fun NavGraphBuilder.authNavGraph(navController: NavHostController) {
     navigation(
         route = Graph.AUTH,
